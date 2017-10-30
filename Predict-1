@@ -8,7 +8,6 @@ def predictint(imvalue):
     This function returns the predicted integer.
     The input is the pixel values from the imageprepare() function.
     """
-    
     # Define the model (same as when creating the model file)
     x = tf.placeholder(tf.float32, [None, 784])
     W = tf.Variable(tf.zeros([784, 10]))
